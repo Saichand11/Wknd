@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2022-09-08T14:23:23.126+05:30"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2022-09-08T14:23:23.126+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.5.12.0"
+    group="my_packages"
+    lastUnwrapped="{Date}2022-09-08T14:23:23.126+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2022-09-08T14:23:23.126+05:30"
+    lastWrappedBy="admin"
+    name="Wknd"
+    version="">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/wknd/components/content/teaserrte"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/wknd/components/content/customcomponent"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Wknd
+Content-Package-Roots: /apps/wknd/components/content/customcomponent,/ap
+ ps/wknd/components/content/teaserrte
+Content-Package-Type: application
+

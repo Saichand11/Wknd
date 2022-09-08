@@ -1,0 +1,11 @@
+<h3>
+	Tease Rte component multifield component.
+</h3>
+<sly data-sly-list.item="${resource.children}">
+	<sly data-sly-list.obj="${item.children}">
+    	 <p>Name : ${obj.name}</p>
+    	 <p>Age : ${obj.age}</p>
+         <p>About: ${obj.about}</p>
+         
+    </sly>
+</sly>
